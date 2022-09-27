@@ -6,5 +6,9 @@
 }
 
 html,body,#root{
+  background-color: #FFEBE4;
+  background-image: url(./img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100%;
 }
