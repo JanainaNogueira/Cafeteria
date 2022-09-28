@@ -1,9 +1,8 @@
+import Register from './Components/pages/Register'
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Register/>
   );
 }
 
