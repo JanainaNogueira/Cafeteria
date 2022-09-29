@@ -15,7 +15,7 @@ function Register(){
                 </div>
                 <div>
                     <p>Senha</p>
-                    <input type='password' placeholder="Digite sua matricula"/>
+                    <input type='password' placeholder="Digite sua senha"/>
                 </div>
             </form>
             <button className={Style.form_button}>Cadastrar</button>
