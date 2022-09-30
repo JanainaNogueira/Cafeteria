@@ -3,6 +3,7 @@ import {BrowserRouter,Routes, Route} from 'react-router-dom'
 import Register from './Components/pages/Register/Register.js'
 import Login from './Components/pages/Login/Login'
 import Authorization from './Components/pages/Authorization/authorization';
+import Home from './Components/pages/Home/Home'
 
 function Router() {
   return (
@@ -12,6 +13,7 @@ function Router() {
           <Route exact path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route path='/authorization' element={<Authorization/>}/>
+          <Route path='/home' element={<Home/>}/>
         </Routes>
       </BrowserRouter>
   );
