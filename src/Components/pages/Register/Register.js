@@ -19,7 +19,7 @@ function Register(){
                     <input type='password' placeholder="Digite sua senha"/>
                 </div>
             </form>
-            <button className={Style.form_button}>Cadastrar</button>
+            <Link to="/authorization" className={Style.linkButton}><button className={Style.form_button}>Cadastrar</button></Link>
             <Link to="/login" className={Style.form_link}>Já tem cadastro.Clique aqui.</Link>
         </main>
     )
