@@ -15,7 +15,7 @@ function Login(){
                     <input type='password' placeholder="Digite sua senha"/>
                 </div>
             </form>
-            <button className={Style.form_button}>Login</button>
+            <Link to='/home' className={Style.linkButton}><button className={Style.form_button}>Login</button></Link>
             <Link to="/register" className={Style.form_link}>Não possui cadastro.Clique aqui.</Link>
         </main>
     )
