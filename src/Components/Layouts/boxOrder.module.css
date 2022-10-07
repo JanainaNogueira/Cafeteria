@@ -1,0 +1,83 @@
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    min-height: 45%;
+    background-color: #FFEBE4;
+    border: 1px solid #000;
+    margin: 0.5%;
+    border-radius: 13px;
+}
+.client{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 25%;
+    
+}
+.client h2{
+    font-weight: 400;
+}
+.client p{
+    font-size: 120%;
+}
+.orders{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 55%;
+    overflow:auto;
+}
+.orders::-webkit-scrollbar{
+    width: 4px;
+    background-color: none;
+}
+.orders::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #d3b7ad;
+}
+.order{
+    display: flex;
+    width: 100%;
+    min-height: 10%;
+    margin: 1% 0 1% 0;
+}
+.order p{
+    display: flex;
+    align-items: center;
+}
+.order p:nth-child(1){
+    width: 85%;
+}
+.price{
+    display: flex;
+    justify-content: flex-end;
+    width: 15%;
+}
+.finalOrder{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+}
+.finalOrder p{
+    width: 50%;
+    font-size: 120%;
+}
+
+.finalOrder button{
+    width: 15%;
+    height: 55%;
+    background-color: #73412F;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 150%;
+}
+.finalOrder button:hover{
+    cursor: pointer;
+}
