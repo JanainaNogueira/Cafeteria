@@ -80,4 +80,5 @@
 }
 .finalOrder button:hover{
     cursor: pointer;
+    background-color: #403634;
 }
