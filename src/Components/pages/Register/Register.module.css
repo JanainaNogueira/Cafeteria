@@ -21,7 +21,7 @@
 }
 
 .form_register div{
-    height: 33%;
+    height: 20%;
 }
 
 .form_register div input{
@@ -29,6 +29,14 @@
     width: 100%;
     border:none;
     border-radius: 5px;
+}
+.inputTimeEmployee{
+    display: flex;
+    justify-content: space-between;
+}
+.inputTimeEmployee div{
+    width: 45%;
+    height: 100%;
 }
 .linkButton{
     width:40%;
@@ -45,8 +53,15 @@
     font-weight: 400;
     font-size: 100%;
 }
+.form_button:hover{
+    background-color:#af9c95;
+    color: #ffffff;
+}
 .form_link{
     color: #ffffff;
     cursor: pointer;
     text-decoration: none;
+}
+.form_link:hover{
+    color: rgb(5, 201, 201);
 }
