@@ -14,6 +14,20 @@ function Register(){
                     <p>Matricula</p>
                     <input type='text' placeholder="Digite sua matricula"/>
                 </div>
+                <div className={Style.inputTimeEmployee}>
+                    <div>
+                    <p>Entrada</p>
+                    <input type='time'/>
+                    </div>
+                    <div>
+                    <p>Saída</p>
+                    <input type='time'/>
+                    </div>
+                </div>
+                <div>
+                    <p>Email</p>
+                    <input type='email' placeholder="Digite seu email"/>
+                </div>
                 <div>
                     <p>Senha</p>
                     <input type='password' placeholder="Digite sua senha"/>
