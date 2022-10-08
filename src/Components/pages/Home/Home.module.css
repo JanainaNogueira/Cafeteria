@@ -11,15 +11,14 @@
 .iconPlus{
     width: 4%;
     height: 100%;
-    stroke-width: 1%;
+    stroke-width: 6%;
     border-radius: 4.5px;
+    color: #000000;
 }
 .iconPlus:hover{
     cursor: pointer;
-    background-color: #403634;
-    fill: #ffffff;
+    background-color: #442b28;
     stroke: #ffffff;
-    stroke-width: 2%;
 }
 .main{
     display: flex;
