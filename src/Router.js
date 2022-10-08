@@ -4,6 +4,7 @@ import Register from './Components/pages/Register/Register.js'
 import Login from './Components/pages/Login/Login'
 import Authorization from './Components/pages/Authorization/authorization';
 import Home from './Components/pages/Home/Home'
+import DishTypes from './Components/pages/DishTypes/DishTypes.js';
 
 function Router() {
   return (
@@ -14,6 +15,7 @@ function Router() {
           <Route path='/register' element={<Register/>}/>
           <Route path='/authorization' element={<Authorization/>}/>
           <Route path='/home' element={<Home/>}/>
+          <Route path='/dishtypes' element={<DishTypes/>}/>
         </Routes>
       </BrowserRouter>
   );
