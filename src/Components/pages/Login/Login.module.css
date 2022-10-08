@@ -44,8 +44,15 @@
     font-weight: 400;
     font-size: 100%;
 }
+.form_button:hover{
+    background-color:#af9c95;
+    color: #ffffff;
+}
 .form_link{
     color: #ffffff;
     cursor: pointer;
     text-decoration: none;
+}
+.form_link:hover{
+    color: rgb(5, 201, 201);
 }
