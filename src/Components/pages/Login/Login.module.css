@@ -29,30 +29,3 @@
     border:none;
     border-radius: 5px;
 }
-.linkButton{
-    width:40%;
-    height: 8%;
-    border-radius: 5px;
-}
-.form_button{
-    cursor: pointer;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border:none;
-    border-radius: 5px;
-    font-weight: 400;
-    font-size: 100%;
-}
-.form_button:hover{
-    background-color:#af9c95;
-    color: #ffffff;
-}
-.form_link{
-    color: #ffffff;
-    cursor: pointer;
-    text-decoration: none;
-}
-.form_link:hover{
-    color: rgb(5, 201, 201);
-}
