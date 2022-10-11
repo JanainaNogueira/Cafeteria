@@ -1,0 +1,8 @@
+.form_link{
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.form_link:hover{
+    color: rgb(5, 201, 201);
+}
