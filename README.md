@@ -84,6 +84,9 @@ To start the project in react it is necessary to run the command in your termina
 >**Obs:** For this you need to have NODE(LTS) installed on your computer.
 https://nodejs.org/en/
 
+    npm install
+And after this.
+
     npm start
 
 If the page does not open automatically, it can be accessed by the urls
