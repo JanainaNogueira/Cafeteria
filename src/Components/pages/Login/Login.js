@@ -1,5 +1,6 @@
-import {Link} from 'react-router-dom'
 import Style from './Login.module.css'
+import LinkButton from '../../LinkButtonForm'
+import LinkText from '../../LinkText'
 
 function Login(){
     return(
@@ -15,8 +16,8 @@ function Login(){
                     <input type='password' placeholder="Digite sua senha"/>
                 </div>
             </form>
-            <Link to='/home' className={Style.linkButton}><button className={Style.form_button}>Login</button></Link>
-            <Link to="/register" className={Style.form_link}>Não possui cadastro.Clique aqui.</Link>
+            <LinkButton  to='/home' text='Login'/>
+            <LinkText to='/register' text='Não possui cadastro.Clique aqui.'/>
         </main>
     )
 }

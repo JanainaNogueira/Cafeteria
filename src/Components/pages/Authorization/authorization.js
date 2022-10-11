@@ -1,5 +1,6 @@
-import {Link} from 'react-router-dom'
 import Style from '../Login/Login.module.css'
+import LinkButton from '../../LinkButtonForm'
+import LinkText from '../../LinkText'
 
 function Authorization(){
     return(
@@ -15,8 +16,8 @@ function Authorization(){
                     <input type='password' placeholder="Digite a senha do gerente"/>
                 </div>
             </form>
-            <Link to="/home" className={Style.linkButton}><button className={Style.form_button}>Autorizar</button></Link>
-            <Link to="/register" className={Style.form_link}>Não quer autorizar.Clique aqui.</Link>
+            <LinkButton  to='/home' text='Autorizar'/>
+            <LinkText to='/register' text='Não quer autorizar.Clique aqui.'/>
         </main>
     )
 }

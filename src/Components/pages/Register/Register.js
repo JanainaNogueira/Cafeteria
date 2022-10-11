@@ -1,5 +1,6 @@
-import {Link} from 'react-router-dom'
 import Style from './Register.module.css'
+import LinkButton from '../../LinkButtonForm'
+import LinkText from '../../LinkText'
 
 function Register(){
     return(
@@ -33,8 +34,8 @@ function Register(){
                     <input type='password' placeholder="Digite sua senha"/>
                 </div>
             </form>
-            <Link to="/authorization" className={Style.linkButton}><button className={Style.form_button}>Cadastrar</button></Link>
-            <Link to="/login" className={Style.form_link}>Já tem cadastro.Clique aqui.</Link>
+            <LinkButton  to='/authorization' text='Cadastrar'/>
+            <LinkText to='/login' text='Já tem cadastro.Clique aqui.'/>
         </main>
     )
 }
