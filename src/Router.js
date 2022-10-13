@@ -5,6 +5,7 @@ import Login from './Components/pages/Login/Login'
 import Authorization from './Components/pages/Authorization/authorization';
 import Home from './Components/pages/Home/Home'
 import DishTypes from './Components/pages/DishTypes/DishTypes.js';
+import SwitchPassword from './Components/pages/SwitchPassword/SwitchPassword'
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
           <Route path='/authorization' element={<Authorization/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/dishtypes' element={<DishTypes/>}/>
+          <Route path='/switchpassword' element={<SwitchPassword/>}/>
         </Routes>
       </BrowserRouter>
   );
