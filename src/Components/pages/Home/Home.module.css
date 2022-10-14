@@ -4,12 +4,17 @@
     overflow:none;
 }
 .icon{
-    display: flex;
     width: 45%;
-    height: 4%;
+    height: 5%;
+}
+.icon button{
+    width:4%;
+    height:100%;
+    background:none;
+    border: none;
 }
 .iconPlus{
-    width: 4%;
+    width: 100%;
     height: 100%;
     stroke-width: 6%;
     border-radius: 4.5px;
@@ -19,6 +24,7 @@
     cursor: pointer;
     background-color: #442b28;
     stroke: #ffffff;
+    height: 80%;
 }
 .main{
     display: flex;
