@@ -14,6 +14,7 @@ function Login(){
                 <div>
                     <p>Senha</p>
                     <input type='password' placeholder="Digite sua senha"/>
+                    <LinkText to='/switchpassword' text='Esqueci a senha.'/>
                 </div>
             </form>
             <LinkButton  to='/home' text='Login'/>
