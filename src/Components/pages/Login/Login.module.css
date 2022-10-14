@@ -14,13 +14,15 @@
     font-weight: 400;
 }
 .form_register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width:80%;
-    height:35%;
-    align-items: center;
+    height:50%;
 }
 
 .form_register div{
-    height: 50%;
+    height: 35%;
 }
 
 .form_register div input{
