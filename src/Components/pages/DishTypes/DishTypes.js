@@ -11,9 +11,9 @@ function TypeOrders(){
                 <button className={Style.types_buttons}>Frios</button>
                 <button className={Style.types_buttons}>Aconpanhamentos</button>
             </main>
-            <div className={Style.buttons}>
-                <Link to='/home' className={Style.link_button} >Cancelar</Link>
-                <button>Ver pedido</button>
+            <div className={Style.buttons_link}>
+                <Link to='/home' className={Style.links}>Cancelar</Link>
+                <Link to='/' className={Style.links}>Ver pedido</Link>
             </div>
         </div>
     )
