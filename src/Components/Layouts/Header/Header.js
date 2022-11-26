@@ -3,6 +3,7 @@ import { HiOutlineUserCircle, HiOutlineLogout, HiX } from "react-icons/hi";
 import { useState } from 'react';
 import Style from './Header.module.css'
 import Styled from '../../ModalTab.module.css'
+import img from '../../../img/ImagePerfil.png'
 
 function Header(){
     const [showPerfil,setShowPerfil] = useState(false)
@@ -13,8 +14,9 @@ function Header(){
             <div className={Styled.modal}>
                 <div className={Styled.modal__main}>
                     <div className={Styled.box_profile_image}>
-                        <div>
-                        </div>
+                        <figure>
+                            <img src={img}/>
+                        </figure>
                     </div>
                     <div className={Styled.box_perfil}>
                     <div className={Styled.arrow}>
