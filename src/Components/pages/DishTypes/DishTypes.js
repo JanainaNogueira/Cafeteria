@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import Header from '../../Layouts/Header/Header'
 import Style from './DishTypes.module.css'
 
@@ -10,9 +11,9 @@ function TypeOrders(){
                 <button className={Style.types_buttons}>Frios</button>
                 <button className={Style.types_buttons}>Aconpanhamentos</button>
             </main>
-            <div className={Style.buttons}>
-                <button>Cancelar</button>
-                <button>Ver pedido</button>
+            <div className={Style.buttons_link}>
+                <Link to='/home' className={Style.links}>Cancelar</Link>
+                <Link to='/' className={Style.links}>Ver pedido</Link>
             </div>
         </div>
     )
