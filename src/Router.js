@@ -6,6 +6,7 @@ import Authorization from './Components/pages/Authorization/authorization';
 import Home from './Components/pages/Home/Home'
 import DishTypes from './Components/pages/DishTypes/DishTypes.js';
 import SwitchPassword from './Components/pages/SwitchPassword/SwitchPassword'
+import Menu from './Components/pages/Menu/Menu'
 
 function Router() {
   return (
@@ -18,6 +19,7 @@ function Router() {
           <Route path='/home' element={<Home/>}/>
           <Route path='/dishtypes' element={<DishTypes/>}/>
           <Route path='/switchpassword' element={<SwitchPassword/>}/>
+          <Route path='/menu' element={<Menu/>}/>
         </Routes>
       </BrowserRouter>
   );
