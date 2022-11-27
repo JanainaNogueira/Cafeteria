@@ -7,9 +7,9 @@ function TypeOrders(){
         <div className={Style.container}>
             <Header/>
             <main className={Style.types}>
-                <button className={Style.types_buttons}>Quentes</button>
-                <button className={Style.types_buttons}>Frios</button>
-                <button className={Style.types_buttons}>Aconpanhamentos</button>
+                <Link to='/menu' className={Style.types_buttons}>Bebidas</Link>
+                <Link to='/menu' className={Style.types_buttons}>Doces</Link>
+                <Link to='/menu' className={Style.types_buttons}>Salgados</Link>
             </main>
             <div className={Style.buttons_link}>
                 <Link to='/home' className={Style.links}>Cancelar</Link>

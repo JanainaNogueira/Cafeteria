@@ -11,6 +11,10 @@
     height: 82%;
 }
 .types_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     width: 45%;
     height: 12%;
     background-color: #73412F;
